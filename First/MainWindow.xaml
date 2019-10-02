@@ -1,0 +1,29 @@
+﻿<Window x:Class="First.MainWindow"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        xmlns:local="clr-namespace:First"
+        mc:Ignorable="d"
+        Title="MainWindow" Height="450" Width="800">
+    <Grid>
+        <Label Content="Товар №1" HorizontalAlignment="Left" Margin="251,99,0,0" VerticalAlignment="Top"/>
+        <Label Content="Товар №2" HorizontalAlignment="Left" Margin="251,129,0,0" VerticalAlignment="Top"/>
+        <Label Content="Товар №3" HorizontalAlignment="Left" Margin="251,159,0,0" VerticalAlignment="Top"/>
+        <Label Content="Товар №4" HorizontalAlignment="Left" Margin="251,189,0,0" VerticalAlignment="Top"/>
+
+        <TextBox Name="firstTextBox" HorizontalAlignment="Left" Height="23" Margin="340,103,0,0" TextWrapping="Wrap" Text="" VerticalAlignment="Top" Width="120"/>
+        <TextBox Name="secondTextBox" HorizontalAlignment="Left" Height="23" Margin="340,133,0,0" TextWrapping="Wrap" Text="" VerticalAlignment="Top" Width="120"/>
+        <TextBox Name="thirdTextBox" HorizontalAlignment="Left" Height="23" Margin="340,163,0,0" TextWrapping="Wrap" Text="" VerticalAlignment="Top" Width="120"/>
+        <TextBox Name="fourthTextBox" HorizontalAlignment="Left" Height="23" Margin="340,193,0,0" TextWrapping="Wrap" Text="" VerticalAlignment="Top" Width="120"/>
+        
+        <Button Name="firstButton" Content="Добавить" HorizontalAlignment="Left" Margin="473,103,0,0" VerticalAlignment="Top" Width="75" Click="FirstButtonClick"/>
+        <Button Name="secondButton" Content="Добавить" HorizontalAlignment="Left" Margin="473,133,0,0" VerticalAlignment="Top" Width="75" Click="SecondButtonClick"/>
+        <Button Name="thirdButton" Content="Добавить" HorizontalAlignment="Left" Margin="473,163,0,0" VerticalAlignment="Top" Width="75" Click="ThirdButtonClick"/>
+        <Button Name="fourthButton" Content="Добавить" HorizontalAlignment="Left" Margin="473,193,0,0" VerticalAlignment="Top" Width="75" Click="FourthButtonClick"/>
+        
+        <Button Content="Просмотреть корзину" HorizontalAlignment="Left" Margin="296,253,0,0" VerticalAlignment="Top" Width="164" Height="44" Click="ButtonClick"/>
+
+
+    </Grid>
+</Window>
